@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_drink"
+        android:textSize="24sp"
+        android:fontFamily="@font/kalam_bold"
+        android:textColor="#4B2E19"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4B2E19"
+        android:popupBackground="@drawable/dialog_background"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:backgroundTint="#FFFAE9"
+            android:fontFamily="@font/kalam_bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#4B2E19"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:backgroundTint="#FFFAE9"
+            android:fontFamily="@font/kalam_bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#4B2E19"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

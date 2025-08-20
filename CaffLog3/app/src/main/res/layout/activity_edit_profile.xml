@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/editProfileToolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@id/editProfileToolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:fontFamily="@font/kalam_bold"
+                android:textSize="64sp"
+                android:textColor="#6F513A"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/editProfileTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_profile"
+                android:fontFamily="@font/kalam_bold"
+                android:textSize="48sp"
+                android:textColor="#6F513A"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:fontFamily="@font/kalam_regular"
+                android:textColor="#2F1C0E"
+                android:textColorHint="#8B6E54"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:backgroundTint="#2F1C0E" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:fontFamily="@font/kalam_regular"
+                android:textColor="#2F1C0E"
+                android:textColorHint="#8B6E54"
+                android:inputType="textPassword"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:backgroundTint="#2F1C0E" />
+
+            <EditText
+                android:id="@+id/editTextDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dob_hint"
+                android:fontFamily="@font/kalam_regular"
+                android:textColor="#2F1C0E"
+                android:textColorHint="#7A6049"
+                android:inputType="date"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:backgroundTint="#2F1C0E" />
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/weight"
+                android:fontFamily="@font/kalam_regular"
+                android:textColor="#2F1C0E"
+                android:textColorHint="#6A533F"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:backgroundTint="#2F1C0E" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFAE9"
+                android:fontFamily="@font/kalam_bold"
+                android:textSize="24sp"
+                android:textColor="#4B2E19"
+                android:textStyle="bold"
+                android:text="@string/save"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:id="@+id/buttonDeleteAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_account"
+                android:fontFamily="@font/kalam_bold"
+                android:textSize="20sp"
+                android:textColor="#4B2E19"
+                android:backgroundTint="#FFD1D1"
+                android:layout_marginTop="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

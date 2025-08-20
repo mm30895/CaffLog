@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CaffLog</string>
+    <string name="add_drink_title">Add Drink</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_message">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up_text_link">Don\'t have an account? Sign Up</string>
+    <string name="stay_in_control">Stay in control!</string>
+    <string name="login_text_link">Already have an account? Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="dob_hint">Date of Birth (dd.MM.yyyy)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="save">Save</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="select_a_drink">Select a drink</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="edit_drinks">Edit Drinks</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_drink">Add Drink</string>
+    <string name="my_drinks">My Drinks</string>
+    <string name="time_since_last_drink">Time since last drink:</string>
+    <string name="no_drinks_yet">No drinks yet</string>
+</resources>

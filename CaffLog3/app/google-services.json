@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "160142143257",
+    "firebase_url": "https://cafflog3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cafflog3",
+    "storage_bucket": "cafflog3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160142143257:android:22bd582aef345e182a9f88",
+        "android_client_info": {
+          "package_name": "si.uni_lj.fe.tnuv.cafflog3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJbgP7CUwOkkt2Ljg-2oU3L9HSxW8DlW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
